@@ -25,6 +25,7 @@ abbr lst 'systemctl list-timers'
 abbr up 'sudo nix-channel --update'
 abbr chls 'sudo nix-channel --list'
 abbr lsgen 'sudo nix-env --list-generations --profile /nix/var/nix/profiles/system'
+abbr clean 'sudo nix-collect-garbage --delete-older-than 5d'
 
 # CLI COMMANDS
 alias l 'eza -lh --group-directories-first'
