@@ -79,8 +79,6 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  programs.fish.enable = true;
-
   users.users.y = {
     isNormalUser = true;
     description = "y";
@@ -156,8 +154,8 @@
 
   # Open ports in the firewall.
   # Warpinator and LocalSend
-  networking.firewall.allowedTCPPorts = [ 42000 42001 53317 ];
-  networking.firewall.allowedUDPPorts = [ 42000 42001 53317 ];
+  networking.firewall.allowedTCPPorts = [ 53317 ];
+  networking.firewall.allowedUDPPorts = [ 53317 ];
   networking.firewall.enable = true;
 
   # This value determines the NixOS release from which the default
