@@ -8,6 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./vbhost.nix
+#      ./vbguest.nix
     ];
 
   # Bootloader.
@@ -104,12 +106,10 @@
     chromium
     brave
     nextcloud-client
-    megasync
     keepassxc
     obs-studio
     git
     github-desktop
-    virtualbox
     vlc
     mpv
     qbittorrent
@@ -118,10 +118,7 @@
     wireshark
     obsidian
     spotify
-    localsend
-    warpinator
     onlyoffice-desktopeditors
-    rustdesk
     fzf
     bat
     eza
@@ -136,7 +133,14 @@
     signal-desktop
     ffmpeg
     krename
-    yazi
+    kdePackages.dolphin-plugins
+    kdePackages.ark
+    kdePackages.kbackup
+    gparted
+    syncthing
+    syncthingtray
+    localsend
+    rustdesk-flutter
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
