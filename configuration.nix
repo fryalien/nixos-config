@@ -136,7 +136,11 @@
     kdePackages.dolphin-plugins
     kdePackages.ark
     kdePackages.kbackup
+<<<<<<< Updated upstream
     kdePackages.kio-admin
+=======
+	kdePackages.kio-admin
+>>>>>>> Stashed changes
     gparted
     syncthing
     syncthingtray
