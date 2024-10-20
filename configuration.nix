@@ -142,6 +142,7 @@
     syncthingtray
     localsend
     rustdesk-flutter
+	catppuccin-cursors.mochaMauve
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
