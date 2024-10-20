@@ -136,6 +136,7 @@
     kdePackages.dolphin-plugins
     kdePackages.ark
     kdePackages.kbackup
+    kdePackages.kio-admin
     gparted
     syncthing
     syncthingtray
