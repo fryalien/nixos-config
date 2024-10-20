@@ -8,8 +8,8 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-      ./vbhost.nix
-#      ./vbguest.nix
+      ./vb-host.nix
+#      ./vb-guest.nix
     ];
 
   # Bootloader.
